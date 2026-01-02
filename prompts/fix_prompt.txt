@@ -1,0 +1,7 @@
+Given the Loire JSON, findings, and required fields, produce a JSON object with keys:
+{"explanation": {"critical":[],"major":[],"minor":[]}, "patches": [ {"op":"add|replace","path":"/json/pointer","value":...}], "questions": []}
+Rules:
+- Use JSONPatch paths starting at root.
+- Only use operations add or replace.
+- Use placeholders like "REQUIRED_VALUE" when the value cannot be inferred safely.
+- Do not include any text outside the JSON object.

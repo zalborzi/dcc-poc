@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+outputs/
+.streamlit/
+.GitHubToken
+.DS_Store

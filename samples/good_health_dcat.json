@@ -1,0 +1,10 @@
+{
+  "datasetTitle": "Open Health Dataset",
+  "description": "Aggregated health statistics for research purposes.",
+  "publisher": { "name": "Health Dept" },
+  "contactPoint": { "email": "contact@health.gov", "name": "Data Steward" },
+  "keywords": ["health", "statistics", "research"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "landingPage": "https://data.health.gov/datasets/open-health",
+  "issued": "2024-01-01"
+}
