@@ -1,0 +1,36 @@
+rules:
+  - id: R1
+    severity: critical
+    field: title
+    rule: required
+    message: Title is required.
+  - id: R2
+    severity: major
+    field: description
+    rule: required
+    message: Description is required.
+  - id: R3
+    severity: critical
+    field: contact.email
+    rule: format:email
+    message: Contact email must be valid.
+  - id: R4
+    severity: major
+    field: license
+    rule: format:url
+    message: License must be a URL.
+  - id: R5
+    severity: minor
+    field: landing_page
+    rule: format:url
+    message: Landing page should be a URL.
+  - id: R6
+    severity: major
+    field: keywords
+    rule: required
+    message: At least one keyword required.
+  - id: R7
+    severity: minor
+    field: issued
+    rule: required
+    message: Issued date recommended.

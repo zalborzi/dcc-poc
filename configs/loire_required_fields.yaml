@@ -1,0 +1,8 @@
+required:
+  - title
+  - description
+  - publisher.name
+  - contact.email
+  - keywords
+  - license
+  - landing_page

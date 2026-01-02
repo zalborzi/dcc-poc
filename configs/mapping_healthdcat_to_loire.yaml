@@ -1,0 +1,18 @@
+mappings:
+  title: datasetTitle
+  description: description
+  publisher.name: publisher.name
+  contact.email: contactPoint.email
+  contact.name: contactPoint.name
+  keywords: keywords
+  license: license
+  landing_page: landingPage
+  issued: issued
+required_fields:
+  - title
+  - description
+  - publisher.name
+  - contact.email
+  - keywords
+  - license
+  - landing_page
